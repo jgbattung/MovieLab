@@ -1,6 +1,13 @@
+import { useEffect  } from "react";
+import Navbar from "./components/Navbar";
+import SearchMovies from "./components/SearchMovies";
+
 function App() {
   return (
-    <h1>HELLO</h1>
+    <div className="container">
+      <Navbar />
+      <SearchMovies/>
+    </div>
   );
 }
 
